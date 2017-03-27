@@ -1,10 +1,49 @@
 <html>
-<head>
-    <title>This is a title</title>
-</head>
+    <head>
+        <title>Ini adalah test</title>
 
-<body>
-    <div id="body-container">
-    </div>
-</body>
+        <style>
+            ul {
+                display: inline-block;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #header {
+                margin: 10px 110px;
+            }
+
+            #header > ul > li {
+                list-style: none;
+                display: inline-block;
+            }
+
+            .floatRight {
+                float: right;
+            }
+        </style>
+
+        <script type="">
+        </script>
+    </head>
+
+    <body>
+        <div>
+        <div id="header">
+                <ul>
+                    <li>Home</li>
+                    <li>Moments</li>
+                    <li>Notifications</li>
+                    <li>Messages</li>
+                </ul>
+
+                <div class="floatRight">
+                    <input type="text" class="searchInput" />
+                    <button class="tweetButton">Tweet</button>
+                </div>
+            </div>
+            <div id="body">
+            </div>
+        </div>
+    </body>
 </html>
