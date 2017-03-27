@@ -1,0 +1,43 @@
+/* Base Layout style */
+
+body {
+  font-family: 'Helvetica Neue';
+  font-size: 13px;
+}
+header {
+  /*margin-left: 52px; */
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+}
+  #header ul > li
+    {
+      display: inline;
+      padding-right: 30px;
+    }
+  #search
+    {
+      display: inline-block;
+      float: right;
+      background-color: #F5F8FA;
+      height: 32px;
+      width: 220px;
+      border: 1px solid grey;
+      border-radius: 50px;
+    }
+  #header ul > button
+    {
+      float: right;
+      margin-right: 35px;
+      margin-bottom: 7px;
+      margin-left: 16px;
+      height: 32px;
+      width: 90px;
+      background-color: rgb(73,181,160);
+      border: 1px rgb(73,181,160);
+      border-radius: 5px;
+    }
+
+#cover img {
+  width: 1238px;
+  height: 163px;
+}
