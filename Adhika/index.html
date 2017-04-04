@@ -2,52 +2,14 @@
     <head>
         <title>Ini adalah test</title>
 
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-            }
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
 
-            ul {
-                display: inline-block;
-                margin: 0px;
-                padding: 0px;
-            }
-
-            #header {
-            }
-
-            #header > .navigation-bar {
-                margin: 10px 110px 20px 110px;
-            }
-
-            #header > .navigation-bar > ul > li {
-                list-style: none;
-                display: inline-block;
-            }
-
-            #header > .page-cover {
-                background-color: #1DA1F2;
-                height: 200px;
-            }
-
-            #header > .profile-picture {
-                position: absolute;
-                top: 150px;
-                left: 110px;
-            }
-
-            .floatRight {
-                float: right;
-            }
-        </style>
-
-        <script type="">
-        </script>
+        <script src="js/jquery-3.2.0.js"></script>
+        <script src="js/script.js"></script>
     </head>
 
     <body>
-        <div>
+        <div id="body-container">
             <div id="header">
                 <div class="navigation-bar">
                     <ul>
@@ -62,7 +24,7 @@
                                class="searchInput" 
                                placeholder="Search Twitter"/>
                         <a href="#" title="Profile and settings">
-                            <img src="adhika_small.jpg" 
+                            <img src="img/adhika_small.jpg" 
                                  style="height:19px;" />
                         </a>
                         <button class="tweetButton">Tweet</button>
@@ -72,7 +34,7 @@
                 </div>
                 <div class="profile-picture">
                     <a href="#" title="Adhika Mahendra">
-                        <img src="adhika_big.jpg"
+                        <img src="./img/adhika_big.jpg"
                              style="height:200px;" />
                     </a>
                 </div>

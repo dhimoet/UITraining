@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+}
+
+#header > .navigation-bar {
+    margin: 10px 110px 20px 110px;
+}
+
+#header > .navigation-bar > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+#header > .page-cover {
+    background-color: #1DA1F2;
+    height: 200px;
+}
+
+#header > .profile-picture {
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+
+.floatRight {
+    float: right;
+}
+
