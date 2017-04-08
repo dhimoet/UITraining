@@ -13,12 +13,6 @@ ul {
 }
 
 #header > .navigation-bar {
-    margin: 10px 110px 20px 110px;
-}
-
-#header > .navigation-bar > ul > li {
-    list-style: none;
-    display: inline-block;
 }
 
 #header > .page-cover {
@@ -28,11 +22,46 @@ ul {
 
 #header > .profile-picture {
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 110px;
+}
+
+.navigation-bar > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.topbar-navigation {
+    margin: 10px 110px 20px 110px;
+}
+
+.middle-navigation {
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.profile-navigation {
+    margin-left: 400px;
+}
+
+.profile-navigation > li {
+    text-align: center;
+    padding: 5px 15px;
+    border-bottom: 2px solid transparent;
+}
+
+.profile-navigation > li:hover {
+    border-bottom: 2px solid #1DA1F2;
 }
 
 .floatRight {
     float: right;
 }
 
+.column-divider {
+    width: 100%;
+    padding: 50px 110px;
+}
+
+.tweet-container {
+    border: 1px solid rgba(0,0,0,0.25);
+}

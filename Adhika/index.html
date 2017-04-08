@@ -3,6 +3,7 @@
         <title>Ini adalah test</title>
 
         <link rel="stylesheet" type="text/css" href="./css/styles.css">
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 
         <script src="js/jquery-3.2.0.js"></script>
         <script src="js/script.js"></script>
@@ -11,12 +12,12 @@
     <body>
         <div id="body-container">
             <div id="header">
-                <div class="navigation-bar">
+                <div class="topbar-navigation navigation-bar">
                     <ul>
-                        <li>Home</li>
-                        <li>Moments</li>
-                        <li>Notifications</li>
-                        <li>Messages</li>
+                        <li><a>Home</a></li>
+                        <li><a>Moments</a></li>
+                        <li><a>Notifications</a></li>
+                        <li><a>Messages</a></li>
                     </ul>
 
                     <div class="floatRight">
@@ -32,6 +33,40 @@
                 </div>
                 <div class="page-cover">
                 </div>
+                <div class="middle-navigation navigation-bar">
+                    <ul class="profile-navigation">
+                        <li>
+                            <a>
+                                <div>Tweets</div>
+                                <div class="navigation-number">247</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>Following</div>
+                                <div class="navigation-number">10</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>Followers</div>
+                                <div class="navigation-number">19</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>Likes</div>
+                                <div class="navigation-number">2</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>Moments</div>
+                                <div class="navigation-number">0</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="profile-picture">
                     <a href="#" title="Adhika Mahendra">
                         <img src="./img/adhika_big.jpg"
@@ -40,6 +75,37 @@
                 </div>
             </div>
             <div id="body">
+                <table class="column-divider">
+                    <tr>
+                        <td>
+                            <h2><i class="fa fa-facebook"></i>Adhika Mahendra</h2>
+                        </td>
+                        <td>
+                            <div class="tweet-container">
+                                <div class="navigation-bar">
+                                    <ul>
+                                        <li>
+                                            <a>Tweets</a>
+                                        </li>
+                                        <li>
+                                            <a>Tweets &amp; Replies</a>
+                                        </li>
+                                        <li>
+                                            <a>Media</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                Who to follow
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </body>
