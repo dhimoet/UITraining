@@ -14,7 +14,7 @@ Follow these steps below if you are a first time user:
 9. Push your work to GitHub by pressing the Push button.
 
 ### How it works
-Adhika directory is where you can review the works we have done in our meetings. Do not make any modification under this directory. Create your own directory with your own name and do any works there only. You can commit and push your works anytime you'd like. I will ask you to commit and push your works when I feel the need to check it out, i.e., when you ask me a question regarding your codes.
+__Adhika__ directory is where you can review the works we have done in our meetings. Do not make any modification under this directory. Create your own directory with your own name and do any works there only. You can commit and push your works anytime you'd like. I will ask you to commit and push your works when I feel the need to check it out, i.e., when you ask me a question regarding your codes.
 
 Please do not be afraid of others checking out your works. We are not getting grades from what we do. Of course any body can copy your codes. But hey, what would they get from copying without even understanding it? Therefore, feel free to share your codes with others.
 
